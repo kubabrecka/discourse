@@ -285,7 +285,6 @@ zh_CN:
       show_preview: '显示预览 &raquo;'
       hide_preview: '&laquo; 隐藏预览'
       
-      quote_title: "引用帖子"
       bold_title: "加粗"
       bold_text: "加粗文字"
       italic_title: "斜体"
@@ -680,6 +679,13 @@ zh_CN:
         please_upgrade: "请升级！"
         latest_version: "最新版本"
         update_often: '请经常升级！'
+
+        reports:
+          today: "今天"
+          yesterday: "昨天"
+          last_7_days: "7 天以内"
+          last_30_days: "30 天以内"
+          all_time: "所有时间内"
 
       flags:
         title: "标记"

@@ -108,3 +108,11 @@ end
 #  If you want to amend mini profiler to do the monkey patches in the railstie
 #  we are open to it.
 gem 'rack-mini-profiler', git: 'git://github.com/SamSaffron/MiniProfiler'
+
+# perftools only works on 1.9 atm
+group :profile do
+  # travis refuses to install this, instead of fuffing, just avoid it for now
+  #
+  # if you need to profile, uncomment out this line
+  # gem 'rack-perftools_profiler', require: 'rack/perftools_profiler', platform: :mri_19 
+end

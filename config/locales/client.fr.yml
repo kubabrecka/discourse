@@ -272,7 +272,6 @@ fr:
       create_topic: "Créer une discussion"
       create_pm: "Créer un message privé."
 
-      quote_title: "Citer un message"
       bold_title: "Gras"
       bold_text: "texte en gras"
       italic_title: "Italique"
@@ -676,6 +675,13 @@ fr:
         please_upgrade: "Veuillez mettre à jour !"
         latest_version: "Dernière version"
         update_often: "Merci de mettre à jour régulièrement !"
+
+        reports:
+          today: "Aujourd'hui"
+          yesterday: Hier
+          last_7_days: Les 7 derniers jours
+          last_30_days: Les 30 derniers jours
+          all_time: Depuis toujours
 
       flags:
         title: "Signalements"
